@@ -17,6 +17,9 @@ class Anagram
     end
   end
   
+  def match
+    @some_word
+  end
   
   
   
