@@ -9,7 +9,7 @@ class Anagram
   
   def self.match(some_word)
     @some_word.each do |word|
-      some_word == word.match?
+       word.match?
     end
   end
   
