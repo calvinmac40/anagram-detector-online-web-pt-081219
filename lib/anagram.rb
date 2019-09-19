@@ -6,7 +6,7 @@ class Anagram
     @some_word = some_word
   end
   
-  def match=(some_word)
+  def match(some_word)
     @some_word.sort == some_word
   end
 end
