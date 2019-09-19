@@ -8,8 +8,8 @@ class Anagram
   end
   
   def self.match(some_word)
-    @some_word.all? do |word|
-      some_word == word
+    @some_word.each do |word|
+      some_word == word.match?
     end
   end
   
