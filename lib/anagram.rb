@@ -13,5 +13,4 @@ class Anagram
       (element.split("").sort)
     end
   end
-  end
 end
